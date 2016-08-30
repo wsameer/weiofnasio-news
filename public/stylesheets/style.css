@@ -1,8 +1,27 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
+}
+
+.glyphicon-thumbs-up,
+.glyphicon-thumbs-down {
+	cursor:pointer
+}
+.mt-30 {
+	margin-top: 30px !important;
+}
+.border {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+form {
+	padding: 10px;
+}
+h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
