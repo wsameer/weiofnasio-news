@@ -9,7 +9,7 @@ var postSchema = new Schema({
   , upvotes:    { type: Number, default: 0 }
   , comments:   [{ type: mongoose.Schema.Types.ObjectId, ref: 'Comment' }]
 }
-, { 
+, {
   timestamps: {
       createdAt: 'created_at'
     , updatedAt: 'updated_at'
