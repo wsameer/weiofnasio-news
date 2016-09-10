@@ -1,6 +1,9 @@
 /** Bring mongoose into the app */
 var mongoose = require('mongoose');
 
+/** Tell mongoose to use ES6 native promise library */
+mongoose.Promise = global.Promise;
+
 /** Get the configuration variables */
 var config = require('../config/config.js');
 
